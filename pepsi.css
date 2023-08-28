@@ -71,10 +71,10 @@ nav ul li a{
     align-items: center;
     position: relative;
 }
-.hero_1{
+/* .hero_1{
     transition: transform 0.3s, opacity 0.3s; 
-    width: 31.5%;
-}
+    width: 26%;
+} */
 .hero_content{
     width: 60%;
     font-family: Montserrat;
@@ -130,30 +130,17 @@ nav ul li a{
     width: 24%;
     padding: 20px 10px;
     text-align: center;
-    color: white;
+    color: black;
     position: relative;
     height: 60vh;
-    /* border-radius: 4px; */
-}
-.card_1{
-    background-color: #0053A0;
-}
-.card_2{
-    background-color: #FF6347;
-}
-/* .card_2 .about_btn{
-    background-color: var(--pepsi-);
-} */
-.card_3{
-    background-color:  #7D3C98;
-}
-.card_4{
-    background-color: #00CC99;
+    border-radius: 4px;
+    box-shadow: 1px 1px 10px gray;
 }
 
 .card .fa{ 
     font-size: 80px;
     margin:20px auto;
+    color: var(--pepsi-blue);
 }
 .card p{
     margin:10px;
@@ -172,7 +159,7 @@ nav ul li a{
 .about_btn{
    position: absolute;
    bottom: 30px;
-   margin-left: -50px;
+   margin-left: -25%;
    width: 50%;
    border: none;
    height: 33px;
@@ -308,7 +295,7 @@ nav ul li a{
     margin: auto;
 }
 .contact-details, .contact-form {
-    width: 48%;
+    width: 49%;
     padding: 20px;
     /* border: 1px solid #ccc; */
     border-radius: 5px;
@@ -338,13 +325,15 @@ textarea {
 
 .form_submit {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 40px;
     background-color: var(--pepsi-blue);
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin:20px auto;
+    display: block;
 }
 
 .form_submit:hover {
@@ -360,13 +349,14 @@ textarea {
     justify-content: space-between;
     padding: 20px 100px;
     font-family: "Montserrat";
+    margin: 40px 0px;
 }
 .footer_icons{
     display: flex;
     gap: 20px;
 }
 .one{
-    width: 24%;
+    width: 33%;
 }
 .one img{
     width: 50%;
@@ -385,5 +375,5 @@ textarea {
     list-style: none;
 }
 .footer_side ul li:hover{
-     color: var(--pepsi-blue);
+     color: yellow;
 }
